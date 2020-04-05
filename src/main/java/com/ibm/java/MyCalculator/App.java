@@ -17,10 +17,16 @@ public class App
         Scanner var2 = new Scanner(System.in);
         System.out.println("Enter Number :");
         int num2 = var2.nextInt();
-        		
-         
-        int result = num1 + num2 ; 
-        System.out.println("The Sum of two numbers is : " + result);
+        		 
+        int sum = num1 + num2 ; 
+        System.out.println("The Sum of two numbers is : " +sum);
+        
+        int prod = num1*num2;
+        System.out.println("The Product of two numbers is :" +prod);
+        
+        int div = num1/num2;
+        System.out.println("The Divison of two numbers is:" +div);
+        
         
     }
 }
